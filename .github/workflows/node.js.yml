@@ -33,7 +33,7 @@ jobs:
     - run: |
         cd public
         git config --global user.name 'haileetangg'
-        git config --global user.email 'ruiruibupt@gmail.com'
+        git config --global user.email 'dorothytang19984432@gmail.com'
         git add .
         git commit -m "Update master"
         git push

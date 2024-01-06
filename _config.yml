@@ -102,5 +102,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/haileetangg/haileetangg.github.io
+  repo: https://github.com/haileetangg/haileetangg.github.io.git
   branch: master

@@ -1,9 +1,9 @@
 ---
-title: Css的Flex布局总结
+title: CSS的Flex布局总结
 author: haileetangg
 avatar: /img/self_beautiful.png
 authorDesc: growing
-date: 2023-03-05 00:00:00
+date: 2023-03-08 00:00:00
 tags: 
  - CSS
  - Flex布局
@@ -45,7 +45,7 @@ flex-shrink属性与flex-grow属性相似，如果不使用这个属性可能会
 
 ![css-display-2023-03flex-shrink](../img/CSS/css-display-2023-03flex-shrink.jpg)
 
-# 弹性方向
+## 弹性方向
 
 flex的主副轴可以进行切换，这个时候用到的是flex-direction属性，它的初始值为row,还有row-reverse, column, column-reverse。效果如下：
 
@@ -67,4 +67,8 @@ flex-grow、flex-shrink、flex-basis、flex: 上文说过了
 
 align-self: 控制子元素在副轴上的对齐方式；auto,flex-start, flex-end,center,stretch
 
-order:将弹性子元素从兄弟节点中移动到指定的位置，会覆盖默认的顺序
+order:将弹性子元素从兄弟节点中移动到指定的位置，会覆盖默认的顺序，数值最小会排列到容器的最前面，依次类推
+
+# 总结
+
+flex布局现在已经无处不在了，它使用起来很方便，而且很多使用场景上也会遇到，比如圣杯布局，左边定宽右边自适应等布局场景都可以用到flex布局，但是flex布局是一纬的，如果需要在两个维度上都对齐的话，这个时候就要使用到grid布局。所以下次我们讲Grid布局！
